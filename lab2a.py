@@ -1,0 +1,11 @@
+n=int(input("enter the length of the sequence is:"))
+f_no=0
+s_no=1
+print("the fibbanacci series is:")
+print(f_no,s_no,end=" ")
+
+for i in range (2,n+1):
+          new_term=f_no+s_no
+          print(new_term,end=" ")
+          f_no=s_no
+          s_no=new_term

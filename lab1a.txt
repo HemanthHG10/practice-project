@@ -1,0 +1,14 @@
+develop a programe to read the student details like name,usn and mark in three subjects.display the student details total marks and percentage with suitable
+
+
+student_name=input("enter the name of the student:")
+student_usn=input("enter the usn of the student:")
+print("enter the marks of the three subjects":)
+M1=float(input("enter the marks of subject1:"))
+M2=float(input("enter the marks of the subject2:"))
+M3=float(input("enter the marks of subject3:"))
+total_marks=M1+M2+M3
+print("student's name:",student_name)
+print("student's usn:",student_usn)
+print("student's total marks:",total_marks)
+print("student's percentage:",percentage)
